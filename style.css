@@ -1,0 +1,227 @@
+*{
+    font-family: "Closer Text";
+
+    a{
+        text-decoration: none;
+    }
+}
+.customer-card {
+    #slice{
+        border-left: 3px solid orange;
+    }
+
+    h5 {
+        font-size: 22px;
+        color: red;
+        font-weight: bold;
+        padding: 5px 10px 0 15px;
+    }
+
+    p {
+        font-size: 18px;
+        padding: 5px 10px 0 15px;
+        font-weight: bold;
+    }
+
+    .card-content {
+        box-shadow: 0 0 1.25rem 0.3125rem rgba(34, 35, 36, 0.07);
+        border-radius: 5px;
+        margin: 0 25px;
+        width: 28%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card-content:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 1.25rem 0.3125rem rgba(34, 35, 36, 0.2);
+        border-radius: 10px;
+    }
+}
+
+.inegrate-image{
+    width: 500px;
+}
+
+.nav-pills{
+    width: 70%;
+}
+
+.nav-pills .nav-item {
+    margin: 10px;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+}
+
+.nav-pills .nav-item .nav-link{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-pills .nav-item:hover {
+    background-color: rgb(246, 246, 19) !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(246, 246, 19) !important;
+}
+
+.pills-list{
+    list-style-type: "✅";
+}
+
+footer{
+    background-color: #e48e29;
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer-section {
+      background: #e48e29;
+      position: relative;
+    }
+    .footer-cta {
+      border-bottom: 1px solid #ffffff;
+    }
+    .single-cta i {
+      color: #ffffff;
+      font-size: 30px;
+      float: left;
+      margin-top: 8px;
+    }
+    .cta-text {
+      padding-left: 15px;
+      display: inline-block;
+    }
+    .cta-text h4 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .cta-text span {
+      color: #ffffff;
+      font-size: 15px;
+    }
+    .footer-content {
+      position: relative;
+      z-index: 2;
+    }
+    .footer-pattern img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 330px;
+      background-size: cover;
+      background-position: 100% 100%;
+    }
+    .footer-logo {
+      margin-bottom: 30px;
+    }
+    .footer-logo img {
+        max-width: 200px;
+    }
+    .footer-text p {
+      margin-bottom: 14px;
+      font-size: 14px;
+          color: #ffffff;
+      line-height: 28px;
+    }
+    .footer-social-icon span {
+      color: #fff;
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 20px;
+    }
+    .footer-social-icon a {
+      color: #fff;
+      font-size: 16px;
+      margin-right: 5px;
+    }
+    .footer-social-icon i {
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      line-height: 38px;
+      border-radius: 50%;
+    }
+    .footer-widget-heading h3 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      position: relative;
+    }
+    .footer-widget-heading h3::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -15px;
+      height: 2px;
+      width: 50px;
+      background: #ffffff;
+    }
+    .footer-widget ul li {
+      display: inline-block;
+      float: left;
+      width: 50%;
+      margin-bottom: 12px;
+    }
+    .footer-widget ul li a:hover{
+      color: #ffffff;
+    }
+    .footer-widget ul li a {
+      color: #ffffff;
+      text-transform: capitalize;
+    }
+    .subscribe-form {
+      position: relative;
+      overflow: hidden;
+    }
+    .subscribe-form input {
+      width: 100%;
+      padding: 14px 28px;
+      background: #ffffff;
+      border: 1px solid #ffffff;
+      color: #000000;
+    }
+    .subscribe-form button {
+        position: absolute;
+        right: 0;
+        background: #ff5e14;
+        padding: 26px 20px;
+        border: 1px solid #ff5e14;
+        top: 0;
+    }
+    .subscribe-form button i {
+      color: #000000;
+      font-size: 30px;
+    }
+    .copyright-area{
+      background: #e48e29;
+      padding: 25px 0;
+    }
+    .copyright-text p {
+      margin: 0;
+      font-size: 14px;
+      color: #ffffff;
+    }
+    .copyright-text p a{
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .footer-menu li {
+      display: inline-block;
+      margin-left: 20px;
+    }
+    .footer-menu li:hover a{
+      color: #ffffff;
+    }
+    .footer-menu li a {
+      font-size: 14px;
+      color: #ffffff;
+    }
+}
